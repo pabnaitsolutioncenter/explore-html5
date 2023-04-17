@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        #s-heading{
+            color: coral;
+        }
+        #t-hading {
+            color: violet;
+        }
+        .top-h {
+            color: black !important;
+        }
+
+        h1 {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: darkblue;" id="t-hading" class="top-h">This Is Top Heading</h1>
+    <h1 id="s-heading">This Is Second Heading</h1>
+    <h1>This Is Third Headin</h1>
+    <h1>This Is Top Heading</h1>
+    <h1>This Is Second Heading</h1>
+    <h1>This Is Third Headin</h1>
+
+
+</body>
+
+</html>
